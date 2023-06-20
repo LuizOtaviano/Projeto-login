@@ -81,9 +81,9 @@ div.campo > label > span {
 div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 46px);
-    height: 90%;
-    border: none;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 2px solid var(--cor02);
     border-radius: 7px;
     text-indent: 10px;
     transform: translateY(-10px);
@@ -125,11 +125,15 @@ form > a.botao {
     text-decoration: none;
 }
 
-form >a.botao:hover {
+form > a.botao:hover {
     background-color: #6cd3cf;
 }
 
-form > a.botao > span {
+form > a.botao > p {
+    transform: translateY(3px);
+}
+
+form > a.botao > p > span {
     font-size: 0.8em;
 }
 
