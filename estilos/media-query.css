@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+/* celular landscape */
+
+@media screen and (orientation: landscape) {
+    section#login {
+        width: 70%;
+        height: 80%;
+    }
+
+    section#login > div#imagem {
+        height: 40%;
+        background-position: center center;
+    }
+}
+
 /* Verção para tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
