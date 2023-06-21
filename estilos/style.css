@@ -43,7 +43,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: url("../images/imagens-fundo-login.jpg") no-repeat;
+    background: url("../images/imagens-fundo-login-croped.jpg") no-repeat;
     background-size: cover;
     height: 200px;
 }
