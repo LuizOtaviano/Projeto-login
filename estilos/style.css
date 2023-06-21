@@ -69,6 +69,7 @@ form > div.campo {
     display: block;
     border-radius: 7px;
     margin: 5px 0px;
+    border: 2px solid var(--cor02);
 }
 
 div.campo > label > span {
@@ -83,10 +84,9 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    border: 2px solid var(--cor02);
     border-radius: 7px;
     text-indent: 10px;
-    transform: translateY(-10px);
+    transform: translateY(-12px);
 }
 
 
